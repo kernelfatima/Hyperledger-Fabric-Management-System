@@ -33,7 +33,8 @@ Git
 
 The official Hyperledger fabric-samples repository cloned locally.
 
-Step 1: Launch the Blockchain Network (Terminal 1)
+# Step 1: 
+Launch the Blockchain Network (Terminal 1)
 First, we start the Hyperledger Fabric network and deploy our smart contract.
 
 Navigate to the test-network directory:
@@ -55,7 +56,8 @@ Deploy the chaincode to the network. Note: Since this is a new network, the sequ
 
 Leave this terminal running. It is now your live blockchain network.
 
-Step 2: Configure & Run the API Server (Terminal 2)
+# Step 2: 
+Configure & Run the API Server (Terminal 2)
 Next, we configure and launch our API server, which will connect to the blockchain.
 
 Open a new, second terminal. Find your machine's local IP address, as the Docker container will use this to connect to the peer.
@@ -91,7 +93,8 @@ You will see the log Starting server on port 8080.
 
 Leave this second terminal running. It is your live API server.
 
-Step 3: Test the Live Application (Terminal 3)
+# Step 3: 
+Test the Live Application (Terminal 3)
 Finally, let's interact with our running application.
 
 Open a third, new terminal.
